@@ -10,7 +10,7 @@ max_attempts = max(pass_attempts)
 circle_sizes = [(attempts / max_attempts) * 500 for attempts in pass_attempts]
 
 # Path to the folder containing logos
-logo_folder = r"C:\Users\RaymondCarpenter\Documents\GitHub\viz-gallery\success_rate_comparison\nfl_logos"
+logo_folder = "nfl_logos"
 
 # List of logo filenames in the order of the teams played
 team_logos = ['8022.png', '8021.png', '8030.png', 
