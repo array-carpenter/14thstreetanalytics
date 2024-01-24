@@ -1,0 +1,93 @@
+Player,Team,Plays,EPA+CPOE composite,Adj. EPA/play,EPA/play,Success rate,Cmp%,Expected cmp%,CPOE,Air yards,Year,HC,OC,QBC
+K.Murray,ARI,341,0.055,0.064,0.03,44.00%,67.2,69.5,-2.3,7.2,2023,J. Gannon,D. Petzing,I. Woolfork
+K.Murray,ARI,493,0.051,0.032,0.026,44.40%,69.6,70.5,-0.8,7,2022,K. Kingsbury,S. Whipple,C. Turner
+K.Murray,ARI,625,0.123,0.151,0.132,49.30%,72.2,68,4.2,7.9,2021,K. Kingsbury,S. Whipple,C. Turner
+D.Ridder,ATL,482,0.029,-0.028,-0.061,47.10%,66.4,67.7,-1.3,8.3,2023,A. Smith,D. Ragone,N/A
+M.Mariota,ATL,416,0.072,0.084,0.073,49.50%,63.4,64.1,-0.6,10.5,2022,A. Smith,D. Ragone,C. London
+M.Ryan,ATL,663,0.071,0.046,0.031,47.40%,69.2,67.4,1.8,7.2,2021,A. Smith,D. Ragone,C. London
+L.Jackson,BAL,671,0.119,0.15,0.135,50.80%,69.6,66.1,3.5,8.7,2023,J. Harbaugh,T. Monken,T. Martin
+L.Jackson,BAL,475,0.084,0.117,0.109,49.30%,65.7,66.3,-0.6,8.5,2022,J. Harbaugh,G. Roman,J. Urban
+L.Jackson,BAL,563,0.084,0.098,0.084,49.60%,66.3,65.6,0.7,9.4,2021,J. Harbaugh,G. Roman,J. Urban
+J.Allen,BUF,742,0.145,0.197,0.193,52.00%,70.6,65.6,5,8.6,2023,S. McDermott,J. Brady,N/A
+J.Allen,BUF,741,0.136,0.231,0.22,53.00%,66,65,0.9,9.2,2022,S. McDermott,K. Dorsey,J. Brady
+J.Allen,BUF,825,0.121,0.176,0.169,51.50%,66.6,64.5,2.1,8.5,2021,S. McDermott,B. Daboll,K. Dorsey
+B.Young,CAR,660,0.016,-0.139,-0.178,38.80%,66.2,67.6,-1.4,7.6,2023,F. Reich,T. Brown,J. McCown
+J.Fields,CHI,550,0.054,0.013,-0.009,41.30%,67,66.2,0.8,7.9,2023,M. Eberflus,L. Getsy,A. Janocko
+J.Fields,CHI,550,0.045,0.04,0.032,45.30%,63.4,65.8,-2.5,8.9,2022,M. Eberflus,L. Getsy,A. Janocko
+J.Fields,CHI,395,0.014,-0.104,-0.126,42.50%,60.9,62.9,-2,9.7,2021,M. Nagy,B. Lazor,J. DeFilippo
+J.Burrow,CIN,426,0.069,0.048,0.037,47.90%,69.5,68.3,1.2,6.5,2023,Z. Taylor,B. Callahan,D. Pitcher
+J.Burrow,CIN,740,0.127,0.181,0.165,51.20%,70.2,67.4,2.7,6.9,2022,Z. Taylor,B. Callahan,D. Pitcher
+J.Burrow,CIN,637,0.163,0.218,0.186,49.30%,72.3,65.6,6.7,8.3,2021,Z. Taylor,B. Callahan,D. Pitcher
+J.Brissett,CLE,464,0.105,0.121,0.115,48.30%,67.2,64.4,2.9,8.5,2022,K. Stefanski,A. Van Pelt,D. Petzing
+B.Mayfield,CLE,515,0.048,0.051,0.044,44.90%,63.3,65.9,-2.7,8.7,2021,K. Stefanski,A. Van Pelt,D. Petzing
+D.Prescott,DAL,719,0.164,0.262,0.245,52.60%,70.6,66.6,3.9,7.8,2023,M. McCarthy,B. Schottenheimer,S. Tolzien
+D.Prescott,DAL,472,0.113,0.183,0.154,52.50%,67.3,67.2,0.1,8.3,2022,M. McCarthy,K. Moore,D. Nussmeier
+D.Prescott,DAL,709,0.112,0.149,0.137,49.60%,70,67.6,2.4,7.7,2021,M. McCarthy,K. Moore,D. Nussmeier
+R.Wilson,DEN,589,0.095,0.066,0.045,45.80%,71.6,66.7,4.9,7,2023,S. Payton,J. Lombardi,D. Webb
+R.Wilson,DEN,626,0.041,0.006,-0.005,40.90%,64.3,65.4,-1.1,8.8,2022,N. Hackett,J. Outten,K. Kubiak
+T.Bridgewater,DEN,500,0.128,0.168,0.157,49.00%,70.4,66.5,3.9,8,2021,V. Fangio,P. Shurmur,M. Shula
+J.Goff,DET,668,0.108,0.152,0.127,49.70%,71,69.8,1.3,7,2023,D. Campbell,Be. Johnson,M. Brunell
+J.Goff,DET,664,0.109,0.194,0.171,49.20%,68,69.3,-1.4,7.1,2022,D. Campbell,Be. Johnson,M. Brunell
+J.Goff,DET,569,0.039,-0.031,-0.048,46.20%,71.1,70.5,0.6,6.6,2021,D. Campbell,Be. Johnson,M. Brunell
+J.Love,GB,676,0.111,0.163,0.156,47.60%,66.5,65.4,1.1,8.5,2023,Ma. LaFleur,A. Stenavich,T. Clements
+A.Rodgers,GB,624,0.068,0.059,0.039,46.60%,67.3,66.8,0.5,8.2,2022,Ma. LaFleur,A. Stenavich,T. Clements
+A.Rodgers,GB,609,0.176,0.265,0.259,52.10%,71.8,65.9,5.8,7.8,2021,Ma. LaFleur,N. Hackett,L. Getsy
+C.Stroud,HOU,594,0.095,0.135,0.124,47.30%,67,66.8,0.2,9.1,2023,D. Ryans,B. Slowik,J. Johnson
+D.Mills,HOU,564,0.007,-0.071,-0.105,38.80%,63.1,66.9,-3.8,7.7,2022,L. Smith,P. Hamilton,T. White
+D.Mills,HOU,470,0.025,-0.082,-0.09,43.80%,69.6,69.8,-0.2,7.3,2021,D. Culley,T. Kelly,P. Hamilton
+G.Minshew II,IND,578,0.038,0.033,0.022,43.40%,65.6,68.9,-3.3,7.4,2023,S. Steichen,J. Cooter,C. Turner
+M.Ryan,IND,541,0.037,-0.024,-0.053,44.70%,70.4,70.5,-0.1,6.2,2022,F. Reich,M. Brady,S. Milanovich
+C.Wentz,IND,636,0.07,0.103,0.084,46.90%,64.8,66.9,-2.1,7.8,2021,F. Reich,M. Brady,S. Milanovich
+T.Lawrence,JAC,733,0.009,-0.03,-0.045,45.30%,61.7,66.6,-4.9,7.9,2021,U. Meyer,D. Bevell,N/A
+T.Lawrence,JAX,692,0.083,0.092,0.071,48.80%,67,66.1,0.9,8.2,2023,D. Pederson,P. Taylor,M. McCoy
+T.Lawrence,JAX,694,0.105,0.142,0.132,52.00%,68.9,67.4,1.4,7.4,2022,D. Pederson,P. Taylor,M. McCoy
+P.Mahomes,KC,716,0.115,0.152,0.134,48.90%,71.4,68.6,2.7,6.6,2023,A. Reid,M. Nagy,D. Girardi
+P.Mahomes,KC,766,0.178,0.306,0.302,53.90%,71.2,67.6,3.6,7.4,2022,A. Reid,E. Bienemy,M. Nagy
+P.Mahomes,KC,786,0.146,0.232,0.221,53.40%,70.3,67.6,2.7,7.3,2021,A. Reid,E. Bienemy,M. Kafka
+J.Herbert,LAC,558,0.073,0.084,0.081,46.80%,67,67.4,-0.3,7.6,2023,B. Staley,K. Moore,D. Nussmeier
+J.Herbert,LAC,798,0.082,0.083,0.063,47.10%,70.7,69.3,1.4,6.4,2022,B. Staley,J. Lombardi,S. Day
+J.Herbert,LAC,798,0.123,0.218,0.197,51.10%,67.4,68,-0.6,7.6,2021,B. Staley,J. Lombardi,S. Day
+M.Stafford,LAR,596,0.081,0.137,0.123,46.80%,65.9,68.4,-2.6,7.9,2023,S. McVay,Mi. LaFleur,Z. Robinson
+M.Stafford,LAR,348,0.041,-0.011,-0.061,47.40%,69.6,69.7,-0.1,6.8,2022,S. McVay,L. Coen,Z. Robinson
+B.Mayfield,LAR,416,-0.014,-0.106,-0.123,36.80%,62.4,69.5,-7,6.8,2022,S. McVay,L. Coen,Z. Robinson
+M.Stafford,LAR,674,0.129,0.227,0.201,50.90%,67.8,67.9,-0.1,8.5,2021,S. McVay,K. O'Connell,N/A
+A.O'Connell,LV,386,0.015,-0.027,-0.038,42.20%,66.1,70.1,-3.9,7.8,2023,J. McDaniels,M. Lombardi,B. Hardegree
+D.Carr,LV,575,0.068,0.109,0.092,43.10%,63.8,66.8,-3,9.3,2022,J. McDaniels,M. Lombardi,B. Hardegree
+D.Carr,LV,731,0.105,0.132,0.107,48.30%,71.2,69,2.2,8.2,2021,J. Gruden,M. Lombardi,N/A
+T.Tagovailoa,MIA,638,0.139,0.187,0.16,50.00%,71.5,67,4.5,7.8,2023,M. McDaniel,F. Smith,D. Bevell
+T.Tagovailoa,MIA,457,0.148,0.256,0.242,49.90%,66.9,65.5,1.4,9.7,2022,M. McDaniel,F. Smith,D. Bevell
+T.Tagovailoa,MIA,466,0.085,0.081,0.062,48.50%,69.2,67.2,2,7.2,2021,B. Flores,E. Studesville,C. Frye
+K.Cousins,MIN,359,0.134,0.177,0.145,48.20%,71.5,67.2,4.3,7.2,2023,K. O'Connell,W. Phillips,C. O'Hara
+J.Dobbs,MIN,555,0.02,-0.06,-0.085,42.30%,65.8,67.6,-1.8,7.8,2023,K. O'Connell,W. Phillips,C. O'Hara
+K.Cousins,MIN,747,0.081,0.08,0.058,49.40%,69.2,68,1.3,7.6,2022,K. O'Connell,W. Phillips,C. O'Hara
+K.Cousins,MIN,637,0.108,0.151,0.137,46.00%,69.3,67.9,1.4,8,2021,M. Zimmer,K. Kubiak,A. Janocko
+M.Jones,NE,402,0.011,-0.082,-0.133,44.50%,66.1,69,-2.9,7,2023,B. Belichick,B. O'Brien,N/A
+M.Jones,NE,528,0.036,-0.023,-0.031,41.30%,67.9,68.4,-0.4,8.1,2022,B. Belichick,M. Patricia,J. Judge
+M.Jones,NE,616,0.114,0.154,0.123,50.50%,68.9,66.5,2.4,8.1,2021,B. Belichick,J. McDaniels,N/A
+D.Carr,NO,612,0.087,0.071,0.05,46.70%,71.7,68.7,3,8,2023,D. Allen,P. Carmichael,R. Curry
+A.Dalton,NO,436,0.072,0.066,0.042,50.00%,69.2,68.5,0.7,7.9,2022,D. Allen,P. Carmichael,R. Curry
+D.Jones,NYG,656,0.101,0.119,0.113,49.80%,71.6,69.2,2.3,6.4,2022,B. Daboll,M. Kafka,S. Tierney
+D.Jones,NYG,465,0.048,0.022,0.012,44.90%,66.9,67.7,-0.8,7.1,2021,J. Judge,J. Garrett,S. Tierney
+Z.Wilson,NYJ,464,0.008,-0.191,-0.22,38.60%,64.4,67.6,-3.1,7.4,2023,R. Saleh,N. Hackett,R. Calabrese
+S.Darnold,NYJ,503,-0.002,-0.096,-0.122,43.10%,63,67.9,-4.9,7.4,2021,R. Saleh,Mi. LaFleur,R. Calabrese
+Z.Wilson,NYJ,473,-0.029,-0.139,-0.148,38.70%,58.2,67.8,-9.6,7.7,2021,R. Saleh,Mi. LaFleur,R. Calabrese
+J.Hurts,PHI,752,0.124,0.158,0.139,48.70%,70.4,66.6,3.8,8.5,2023,N. Sirianni,Br. Johnson,A. Tanney
+J.Hurts,PHI,677,0.144,0.225,0.213,49.30%,70.3,67.6,2.7,8.3,2022,N. Sirianni,S. Steichen,Br. Johnson
+J.Hurts,PHI,613,0.088,0.117,0.101,47.30%,64.8,64.7,0.1,8.8,2021,N. Sirianni,S. Steichen,Br. Johnson
+K.Pickett,PIT,392,0.019,-0.053,-0.055,42.90%,64.8,67,-2.1,7.3,2023,M. Tomlin,M. Canada,M. Sullivan
+K.Pickett,PIT,497,0.061,0.033,0.028,45.90%,66.4,65.7,0.7,7.5,2022,M. Tomlin,M. Canada,M. Sullivan
+B.Roethlisberger,PIT,689,0.033,0.003,-0.017,41.70%,65.4,67.8,-2.4,6.8,2021,M. Tomlin,M. Canada,M. Sullivan
+G.Smith,SEA,590,0.089,0.086,0.082,48.80%,68.4,66,2.4,7.2,2023,P. Carroll,S. Waldron,G. Olson
+G.Smith,SEA,713,0.115,0.107,0.086,50.20%,72.3,66.6,5.7,7.8,2022,P. Carroll,S. Waldron,D. Canales
+R.Wilson,SEA,494,0.093,0.084,0.075,45.70%,67.1,64,3.1,9.9,2021,P. Carroll,S. Waldron,A. Davis
+B.Purdy,SF,523,0.204,0.36,0.338,56.40%,72.1,66.7,5.4,8.1,2023,K. Shanahan,K. Kubiak,B. Griese
+J.Garoppolo,SF,362,0.13,0.24,0.236,51.40%,67.9,68.6,-0.7,6.9,2022,K. Shanahan,A. Lynn,B. Griese
+J.Garoppolo,SF,515,0.14,0.216,0.203,49.90%,70.7,68,2.6,7.7,2021,K. Shanahan,M. McDaniel,R. Scangarello
+B.Mayfield,TB,686,0.096,0.137,0.131,45.90%,66.4,66.2,0.2,8.5,2023,T Bowles,D. Canales,T. Lewis
+T.Brady,TB,804,0.081,0.09,0.082,48.40%,69.4,68.7,0.7,6.9,2022,T. Bowles,B. Leftwich,C. Christensen
+T.Brady,TB,786,0.139,0.229,0.217,52.40%,68.9,67.2,1.7,8.1,2021,B. Arians,B. Leftwich,C. Christensen
+R.Tannehill,TEN,402,0.081,0.089,0.072,48.00%,66.9,66.1,0.7,7.7,2022,M. Vrabel,T. Downing,P. O'Hara
+R.Tannehill,TEN,655,0.113,0.151,0.132,52.20%,68.8,66.4,2.3,7.4,2021,M. Vrabel,T. Downing,P. O'Hara
+S.Howell,WAS,758,0.03,-0.047,-0.079,43.00%,67.1,67.6,-0.4,7.2,2023,R. Rivera,E. Bienemy,T. Pritchard
+C.Wentz,WAS,336,0.01,-0.054,-0.062,41.70%,63.7,67.4,-3.7,7.9,2022,R. Rivera,S. Turner,K. Zampese
+T.Heinicke,WAS,616,0.053,0.018,0.001,46.80%,66.9,66.6,0.3,7.7,2021,R. Rivera,S. Turner,K. Zampese
