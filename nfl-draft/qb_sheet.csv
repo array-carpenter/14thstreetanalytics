@@ -1,8 +1,8 @@
-position,name,school,draft_class,Height,Weight,Arm Length,Hand Size,Wingspan,40 Yard,10 Yard Split,Vertical,Broad Jump,20 Yard Shuttle,3 Cone,Cmp,Att,Cmp%,Yds,Y/A,AY/A,TD,Int,Pass Rate,Rush Att,Rush Yds,Rush Avg,Rush TD,YP,GP,tttidy,nfl_epa_per_play
+position,Name,school,Draft Class,Height,Weight,Arm Length,Hand Size,Wingspan,40 Yard Dash,10 Yard Split,Vertical,Broad Jump,20 Yard Shuttle,3 Cone,Cmp,Att,Cmp%,Yds,Y/A,AY/A,TD,Int,Pass Rate,Rush Att,Rush Yds,Rush Avg,Rush TD,YP,GP,tttidy,nfl_epa_per_play
 QB,Devin Leary,Kentucky,2024,73,215,30.875,9.5,,,,,,,,777,1315,59.1,9553,7.3,7.6,87,28,137.7,178,-81,-0.5,6,5,43,,
 QB,Michael Penix,Washington,2024,74,216,33.675,10.5,,,,,,,,1067,1685,63.3,13741,8.2,8.4,96,34,146.6,134,265,2,13,6,49,2.58,
 QB,Spencer Rattler,South Carolina,2024,72,211,31,9.875,,4.95,1.63,32,108,4.37,,900,1313,68.5,10807,8.2,8.2,77,32,152.2,297,410,1.4,16,5,38,2.81,
-QB,J.J. McCarthy,Michigan,2024,74.5,219,31.675,9,,,,,,4.23,6.82,482,713,67.6,6226,8.7,9.4,49,11,160.5,161,632,3.9,10,3,40,2.95,
+QB,JJ McCarthy,Michigan,2024,74.5,219,31.675,9,,,,,,4.23,6.82,482,713,67.6,6226,8.7,9.4,49,11,160.5,161,632,3.9,10,3,40,2.95,
 QB,Joe Milton III,Tennessee,2024,77,235,33.375,10.25,,,,35,121,,,400,650,61.5,5353`,8.2,8.6,37,11,146.1,174,661,3.8,12,6,43,2.95,
 QB,Caleb Williams,USC,2024,73,214,32,9.75,,,,,,,,735,1099,66.9,10082,9.2,10.3,93,14,169.3,289,966,3.3,27,3,37,3.24,
 QB,Sam Hartman,Notre Dame,2024,73,211,31.375,9.75,,4.8,1.63,28.5,109,4.34,7.19,1135,1898,59.8,15656,8.2,8.5,134,49,147.2,461,978,2.1,20,6,60,2.99,
