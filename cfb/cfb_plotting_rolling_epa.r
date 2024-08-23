@@ -7,6 +7,9 @@ library(ggplot2)
 library(dplyr)
 options(vsc.plot = TRUE)
 
+# Set the API key
+Sys.setenv(CFBD_API_KEY = "ykUQNUFlwhEFpeeB1mBdAM86qgZiENgq3hYGFj8HRl1j47ZlhKMQv0czdY0fxena")
+
 # Pull team-level stats for the 2023 season
 team_stats <- cfbd_stats_season_team(year = 2023)
 
@@ -20,35 +23,45 @@ team_stats <- team_stats %>%
 # Pull play-by-play data with EPA for the 2023 season
 pbp_data <- cfbd_pbp_data(year = 2023, epa_wpa = TRUE)
 
-# Calculate average EPA per play for each team
+# Filter pbp_data to include only the teams from the selected conferences
+pbp_data <- pbp_data %>%
+  filter(pos_team %in% team_stats$team)
+
+# Calculate Offensive and Defensive EPA per play for each team
 team_epa <- pbp_data %>%
-  filter(pos_team %in% team_stats$team) %>%  # Filter to include only the selected teams
   group_by(pos_team) %>%
-  summarize(avg_epa = mean(EPA, na.rm = TRUE))
+  summarize(
+    off_epa_per_play = mean(EPA[offense_score_play == TRUE], na.rm = TRUE),
+    def_epa_per_play = mean(-EPA[defense_score_play == TRUE], na.rm = TRUE)
+  )
+
+# Check if the team names match valid team logos
+team_epa <- team_epa %>%
+  mutate(pos_team = if_else(pos_team %in% valid_team_names(), pos_team, NA_character_)) %>%
+  drop_na(pos_team)
 
 # Display the first few rows of the extracted data
 head(team_epa)
 
-# Plot EPA per Play for each team with spaced-out names
-my_plot <- ggplot(team_epa, aes(x = reorder(pos_team, avg_epa), y = avg_epa)) +
-  geom_cfb_logos(aes(team = pos_team), width = 0.05) +
+# Create the plot
+tier_plot <- ggplot(team_epa, aes(x = off_epa_per_play, y = def_epa_per_play)) +
+  geom_cfb_logos(aes(team = pos_team), width = 0.08) +
+  geom_hline(yintercept = 0, color = "red", linetype = "dashed") +  # Horizontal line at y=0
+  geom_vline(xintercept = 0, color = "red", linetype = "dashed") +  # Vertical line at x=0
   labs(
-    title = "Average EPA per Play (2023, Selected Conferences)",
-    x = "Team",
-    y = "EPA per Play"
+    title = "College Football Team Tiers, 2023 (Selected Conferences)",
+    x = "Offensive EPA/play",
+    y = "Defensive EPA/play",
+    caption = "Data from CollegeFootballData.com"
   ) +
   theme_minimal() +
-  coord_flip() +  # Flip the coordinates for better readability
   theme(
-    axis.text.y = element_text(hjust = 0.5),  # Center the text horizontally
-    axis.ticks.y = element_blank(),  # Remove y-axis ticks
-    panel.grid.major.y = element_blank(),  # Remove major y-axis grid lines
-    panel.grid.minor.y = element_blank()  # Remove minor y-axis grid lines
-  ) +
-  scale_y_continuous(expand = expansion(mult = c(0.05, 0.05)))  # Add space around y-axis limits
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.caption = element_text(hjust = 0.5)
+  )
 
 # Display the plot
-print(my_plot)
+print(tier_plot)
 
 # Save the plot
-ggsave("epa_per_play_2023_selected_conferences.png", plot = my_plot, width = 10, height = 8)
+ggsave("cfb_team_tiers_2023_selected_conferences.png", plot = tier_plot, width = 12, height = 8)
