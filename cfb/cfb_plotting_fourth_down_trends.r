@@ -73,7 +73,7 @@ plot <- down4 %>%
   facet_wrap(. ~ coach) +
   theme_bw() +
   labs(x = "Yards to Go",
-       title = "Top AP Ranked Coach Fourth Down Tendencies | 2023 Season",
+       title = "Top AP Ranked Coach 4th Down Tendencies | 2023 Season",
        subtitle = "Data from @cfbfastR",
        caption = "Viz by Ray Carpenter (@array_carpenter), inspired by Michael Egle (@deceptivespeed_)",
        color = "Decision") +
