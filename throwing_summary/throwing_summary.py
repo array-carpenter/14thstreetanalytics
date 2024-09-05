@@ -22,8 +22,8 @@ passing_plays = filtered_df[filtered_df['passer_player_name'] == 'J.Allen'] ### 
 rushing_plays = filtered_df[filtered_df['rusher_player_name'] == 'J.Allen'] ### change qb
 
 # Filte game data by game id
-game_data_passing = passing_plays[passing_plays['game_id'] == '2023_14_BUF_KC'] ### follow format YEAR_WEEK_AWAY_HOME 2023_12_BUF_PHI
-game_data_rushing = rushing_plays[rushing_plays['game_id'] == '2023_14_BUF_KC']
+game_data_passing = passing_plays[passing_plays['game_id'] == '2024_1_BAL_KC'] ### follow format YEAR_WEEK_AWAY_HOME 2023_12_BUF_PHI
+game_data_rushing = rushing_plays[rushing_plays['game_id'] == '2023_1_BAL_KC']
 
 # Calculate cumulative completions and attempts for passing plays
 game_data_passing['cumulative_completions'] = game_data_passing['complete_pass'].cumsum()
@@ -150,8 +150,8 @@ summary_table = {
 summary_df = pd.DataFrame.from_dict(summary_table)
 
 # Load images
-headshot_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/allen_headshot.png' # manually find headshot path
-logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/bills_logo.jpg' # manually find logo path
+headshot_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/mahomes_headshot.png' # manually find headshot path
+logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/chiefs_logo.jpg' # manually find logo path
 headshot = Image.open(headshot_path)
 logo = Image.open(logo_path)
 
@@ -194,9 +194,9 @@ def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, 
     ax_logo.axis('off')
 
     # Biographical Information with adjusted horizontal and vertical space
-    ax_bio.text(0.5, 0.95, 'Josh Allen', fontsize=22, ha='center', fontweight='bold')  # manual
-    ax_bio.text(0.5, 0.50, 'RHQB, Age: 27, 6\'5/237', fontsize=18, ha='center')  # manual
-    ax_bio.text(0.5, 0.1, '2023 Week 14 Throwing Summary @ Kansas City Chiefs', fontsize=18, ha='center', fontstyle='italic')  # manual
+    ax_bio.text(0.5, 0.95, 'Patrick Mahomes II', fontsize=22, ha='center', fontweight='bold')  # manual
+    ax_bio.text(0.5, 0.50, 'RHQB, Age: 28, 6\'2/225', fontsize=18, ha='center')  # manual
+    ax_bio.text(0.5, 0.1, '2024 Week 1 Throwing Summary vs. Baltimore Ravens', fontsize=18, ha='center', fontstyle='italic')  # manual
     ax_bio.axis('off')
 
     # Summary Table Plot - Adjusted for more compact cells
