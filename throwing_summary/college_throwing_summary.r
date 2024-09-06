@@ -7,9 +7,6 @@ library(gridExtra)
 library(png)
 library(stringr)
 
-# Set the API key for cfbfastR
-Sys.setenv(CFBD_API_KEY = "ykUQNUFlwhEFpeeB1mBdAM86qgZiENgq3hYGFj8HRl1j47ZlhKMQv0czdY0fxena")
-
 # Define constants for the year, week, and player
 YEAR <- 2024
 WEEK <- 1
