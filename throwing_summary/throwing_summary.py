@@ -16,15 +16,15 @@ pd.set_option('display.max_columns', 400)
 
 data.head(200)
 # Manual filters start here
-filtered_df = data[(data['home_team'] == 'BAL') | (data['away_team'] == 'BAL')] ### change team
+filtered_df = data[(data['home_team'] == 'KC') | (data['away_team'] == 'KC')] ### change team
 
 # Separate filters for passing and rushing plays
-passing_plays = filtered_df[filtered_df['passer_player_name'] == 'L.Jackson'] ### change qb
-rushing_plays = filtered_df[filtered_df['rusher_player_name'] == 'L.Jackson'] ### change qb
+passing_plays = filtered_df[filtered_df['passer_player_name'] == 'P.Mahomes'] ### change qb
+rushing_plays = filtered_df[filtered_df['rusher_player_name'] == 'P.Mahomes'] ### change qb
 
-# Filte game data by game id
+# Filter game data by game id
 game_data_passing = passing_plays[passing_plays['game_id'] == '2024_01_BAL_KC'] ### follow format YEAR_WEEK_AWAY_HOME 2023_12_BUF_PHI
-game_data_rushing = rushing_plays[rushing_plays['game_id'] == '2023_01_BAL_KC']
+game_data_rushing = rushing_plays[rushing_plays['game_id'] == '2024_01_BAL_KC']
 
 # Calculate cumulative completions and attempts for passing plays
 game_data_passing['cumulative_completions'] = game_data_passing['complete_pass'].cumsum()
@@ -132,10 +132,18 @@ pass_distance_summary['Att'] = pass_distance_summary['Att'].astype(int)
 pass_distance_summary['Completions'] = pass_distance_summary['Completions'].astype(int)
 pass_distance_summary['Success Rate'] = pass_distance_summary['Success Rate'].apply(lambda x: f"{x:.1f}%")
 
+# Check for non-null rush attempts and rushing yards to avoid issues with missing data
+game_data_rushing = game_data_rushing.dropna(subset=['rush_attempt', 'rushing_yards', 'rush_touchdown'])
+
 # Calculate rushing statistics
 rush_attempts = game_data_rushing['rush_attempt'].sum()
 rush_yards = game_data_rushing['rushing_yards'].sum()
 rush_touchdowns = game_data_rushing['rush_touchdown'].sum()
+
+# Handle cases where there might be no rushing stats available
+if rush_attempts == 0:
+    rush_yards = 0
+    rush_touchdowns = 0
 
 # Update the summary table with passing and rushing stats
 summary_table = {
@@ -158,18 +166,18 @@ summary_table = {
 summary_df = pd.DataFrame.from_dict(summary_table)
 
 # Load images
-headshot_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/jackson_headshot.png' # manually find headshot path
-logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/ravens_logo.png' # manually find logo path
+headshot_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/mahomes_headshot.png' # manually find headshot path
+logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/chiefs_logo.png' # manually find logo path
 headshot = Image.open(headshot_path)
 logo = Image.open(logo_path)
 
 def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, summary_df: pd.DataFrame, pass_distance_summary: pd.DataFrame, quarter_positions, save_path: str = None):
     # Create a more compact figure
-    fig = plt.figure(figsize=(18, 14))  # Adjust figure size for compactness
+    fig = plt.figure(figsize=(18, 14))  
 
     # Create a gridspec layout with adjusted settings for alignment and spacing
-    gs = gridspec.GridSpec(6, 20,  # Using 20 columns for better spacing
-                           height_ratios=[2, 4, 4, 25, 10, 5],  # Adjusted height ratio for row 4 and others
+    gs = gridspec.GridSpec(6, 20, 
+                           height_ratios=[2, 4, 4, 25, 10, 5],  
                            width_ratios=[1, 3, 1, 4, 1, 3, 1, 3, 1, 3, 1, 4, 1, 3, 1, 3, 1, 3, 1, 1])  # Equal width for plots and tables
 
     # Define the positions of each subplot in the grid
@@ -202,9 +210,9 @@ def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, 
     ax_logo.axis('off')
 
     # Biographical Information with adjusted horizontal and vertical space
-    ax_bio.text(0.5, 0.95, 'Lamar Jackson', fontsize=22, ha='center', fontweight='bold')  # manual
-    ax_bio.text(0.5, 0.50, 'RHQB, Age: 28, 6\'2/215', fontsize=18, ha='center')  # manual
-    ax_bio.text(0.5, 0.1, '2024 Week 1 Throwing Summary @ Kansas City Chiefs', fontsize=18, ha='center', fontstyle='italic')  # manual
+    ax_bio.text(0.5, 0.95, 'Patrick Mahomes II', fontsize=22, ha='center', fontweight='bold')  # manual
+    ax_bio.text(0.5, 0.50, 'RHQB, Age: 28, 6\'2/225', fontsize=18, ha='center')  # manual
+    ax_bio.text(0.5, 0.1, '2024 Week 1 Throwing Summary vs. Baltimore Ravens', fontsize=18, ha='center', fontstyle='italic')  # manual
     ax_bio.axis('off')
 
     # Summary Table Plot - Adjusted for more compact cells
