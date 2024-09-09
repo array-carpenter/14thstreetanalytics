@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.gridspec as gridspec
+import requests
+from io import BytesIO
 from PIL import Image
 
 # Define the year and load the data
@@ -14,7 +16,42 @@ data = pd.read_csv(url, compression='gzip', low_memory=False)
 pd.set_option('display.max_rows', 100)
 pd.set_option('display.max_columns', 400)
 
-data.head(200)
+
+# Function to get an image from ESPN based on player_id
+def get_espn_headshot(player_id: str):
+    url = f'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/{player_id}.png'
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        return Image.open(BytesIO(response.content))
+    else:
+        print(f"Could not retrieve headshot for player {player_id}")
+        return None
+
+def player_headshot(player_id: str, ax: plt.Axes):
+    # Fetch the headshot using the player_id
+    headshot = get_espn_headshot(player_id)
+    
+    if headshot:
+        # Display the image on the axis
+        ax.imshow(headshot)
+        ax.axis('off')  # Hide the axis
+    else:
+        # Placeholder in case the headshot can't be retrieved
+        ax.text(0.5, 0.5, 'No Image', ha='center', va='center', fontsize=12)
+        ax.axis('off')
+
+# Load the quarterback information (including player_id) from qb_info.csv
+qb_info = pd.read_csv('C:/Users/RaymondCarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/qb_info.csv')
+
+# Retrieve player info based on player name
+player_name = 'Jared Goff'  # Make sure this matches the format in the CSV
+player_info = qb_info[qb_info['Name'] == player_name].iloc[0]
+
+# Get the player ID from the CSV and use it to fetch the headshot
+player_id = player_info['player_id']
+headshot = get_espn_headshot(player_id)
+
 # Manual filters start here
 filtered_df = data[(data['home_team'] == 'DET') | (data['away_team'] == 'DET')] ### change team RAMS are LA Chargers are LAC
 
@@ -35,7 +72,7 @@ game_data_passing['cumulative_completion_percentage'] = (
 
 # Sum EPA for both passing and rushing plays
 total_passing_epa = game_data_passing['epa'].sum()
-total_rushing_epa = game_data_rushing['epa'].sum()
+total_rushing_epa = game_data_rushing['epa'].sum() 
 total_epa = total_passing_epa + total_rushing_epa
 
 # Sum the total number of plays (passing attempts + rushing attempts)
@@ -165,10 +202,14 @@ summary_table = {
 # Create the updated summary DataFrame
 summary_df = pd.DataFrame.from_dict(summary_table)
 
-# Load images
-headshot_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/goff_headshot.png' # manually find headshot path
+player_name = 'Jared Goff' 
+player_info = qb_info[qb_info['Name'] == player_name].iloc[0]
+
+# Get the player ID from the CSV and fetch the headshot
+player_id = player_info['player_id']
+headshot = get_espn_headshot(player_id)
+
 logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/lions_logo.png' # manually find logo path
-headshot = Image.open(headshot_path)
 logo = Image.open(logo_path)
 
 def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, summary_df: pd.DataFrame, pass_distance_summary: pd.DataFrame, quarter_positions, save_path: str = None):
@@ -203,10 +244,11 @@ def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, 
     ax_left.axis('off')
     ax_right.axis('off')
 
-    # Plot headshot and logo correctly
-    ax_headshot.imshow(headshot)
-    ax_headshot.axis('off')
-    ax_logo.imshow(logo)
+# Use the player_headshot function to display the headshot
+    player_headshot(player_id, ax_headshot)
+
+# Plot logo as before
+    ax_logo.imshow(logo)    
     ax_logo.axis('off')
 
     # Biographical Information with adjusted horizontal and vertical space
@@ -303,3 +345,4 @@ def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, 
 save_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/qb_dashboard.png'
 
 qb_dashboard(game_data_passing, headshot, logo, summary_df, pass_distance_summary, quarter_positions, save_path=save_path)
+
