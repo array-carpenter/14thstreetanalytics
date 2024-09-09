@@ -16,15 +16,15 @@ pd.set_option('display.max_columns', 400)
 
 data.head(200)
 # Manual filters start here
-filtered_df = data[(data['home_team'] == 'KC') | (data['away_team'] == 'KC')] ### change team
+filtered_df = data[(data['home_team'] == 'DET') | (data['away_team'] == 'DET')] ### change team RAMS are LA Chargers are LAC
 
 # Separate filters for passing and rushing plays
-passing_plays = filtered_df[filtered_df['passer_player_name'] == 'P.Mahomes'] ### change qb
-rushing_plays = filtered_df[filtered_df['rusher_player_name'] == 'P.Mahomes'] ### change qb
+passing_plays = filtered_df[filtered_df['passer_player_name'] == 'J.Goff'] ### change qb
+rushing_plays = filtered_df[filtered_df['rusher_player_name'] == 'J.Goff'] ### change qb
 
 # Filter game data by game id
-game_data_passing = passing_plays[passing_plays['game_id'] == '2024_01_BAL_KC'] ### follow format YEAR_WEEK_AWAY_HOME 2023_12_BUF_PHI
-game_data_rushing = rushing_plays[rushing_plays['game_id'] == '2024_01_BAL_KC']
+game_data_passing = passing_plays[passing_plays['game_id'] == '2024_01_LA_DET'] ### follow format YEAR_WEEK_AWAY_HOME 2023_12_BUF_PHI
+game_data_rushing = rushing_plays[rushing_plays['game_id'] == '2024_01_LA_DET']
 
 # Calculate cumulative completions and attempts for passing plays
 game_data_passing['cumulative_completions'] = game_data_passing['complete_pass'].cumsum()
@@ -166,8 +166,8 @@ summary_table = {
 summary_df = pd.DataFrame.from_dict(summary_table)
 
 # Load images
-headshot_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/mahomes_headshot.png' # manually find headshot path
-logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/chiefs_logo.png' # manually find logo path
+headshot_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/goff_headshot.png' # manually find headshot path
+logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/lions_logo.png' # manually find logo path
 headshot = Image.open(headshot_path)
 logo = Image.open(logo_path)
 
@@ -210,9 +210,9 @@ def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, 
     ax_logo.axis('off')
 
     # Biographical Information with adjusted horizontal and vertical space
-    ax_bio.text(0.5, 0.95, 'Patrick Mahomes II', fontsize=22, ha='center', fontweight='bold')  # manual
-    ax_bio.text(0.5, 0.50, 'RHQB, Age: 28, 6\'2/225', fontsize=18, ha='center')  # manual
-    ax_bio.text(0.5, 0.1, '2024 Week 1 Throwing Summary vs. Baltimore Ravens', fontsize=18, ha='center', fontstyle='italic')  # manual
+    ax_bio.text(0.5, 0.95, 'Jared Goff', fontsize=22, ha='center', fontweight='bold')  # manual
+    ax_bio.text(0.5, 0.50, 'RHQB, Age: 29, 6\'4/217', fontsize=18, ha='center')  # manual
+    ax_bio.text(0.5, 0.1, '2024 Week 1 Throwing Summary vs. LA Rams', fontsize=18, ha='center', fontstyle='italic')  # manual
     ax_bio.axis('off')
 
     # Summary Table Plot - Adjusted for more compact cells
