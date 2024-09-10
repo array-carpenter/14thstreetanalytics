@@ -45,7 +45,7 @@ def player_headshot(player_id: str, ax: plt.Axes):
 qb_info = pd.read_csv('C:/Users/RaymondCarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/qb_info.csv')
 
 # Retrieve player info based on player name
-player_name = 'Jared Goff'  # Make sure this matches the format in the CSV
+player_name = 'Brock Purdy'  # Make sure this matches the format in the CSV
 player_info = qb_info[qb_info['Name'] == player_name].iloc[0]
 
 # Get the player ID from the CSV and use it to fetch the headshot
@@ -53,15 +53,15 @@ player_id = player_info['player_id']
 headshot = get_espn_headshot(player_id)
 
 # Manual filters start here
-filtered_df = data[(data['home_team'] == 'DET') | (data['away_team'] == 'DET')] ### change team RAMS are LA Chargers are LAC
+filtered_df = data[(data['home_team'] == 'SF') | (data['away_team'] == 'SF')] ### change team RAMS are LA Chargers are LAC
 
 # Separate filters for passing and rushing plays
-passing_plays = filtered_df[filtered_df['passer_player_name'] == 'J.Goff'] ### change qb
-rushing_plays = filtered_df[filtered_df['rusher_player_name'] == 'J.Goff'] ### change qb
+passing_plays = filtered_df[filtered_df['passer_player_name'] == 'B.Purdy'] ### change qb
+rushing_plays = filtered_df[filtered_df['rusher_player_name'] == 'B/Purdy'] ### change qb
 
 # Filter game data by game id
-game_data_passing = passing_plays[passing_plays['game_id'] == '2024_01_LA_DET'] ### follow format YEAR_WEEK_AWAY_HOME 2023_12_BUF_PHI
-game_data_rushing = rushing_plays[rushing_plays['game_id'] == '2024_01_LA_DET']
+game_data_passing = passing_plays[passing_plays['game_id'] == '2024_01_NYJ_SF'] ### follow format YEAR_WEEK_AWAY_HOME 2023_12_BUF_PHI
+game_data_rushing = rushing_plays[rushing_plays['game_id'] == '2024_01_NYJ_SF']
 
 # Calculate cumulative completions and attempts for passing plays
 game_data_passing['cumulative_completions'] = game_data_passing['complete_pass'].cumsum()
@@ -202,14 +202,14 @@ summary_table = {
 # Create the updated summary DataFrame
 summary_df = pd.DataFrame.from_dict(summary_table)
 
-player_name = 'Jared Goff' 
+player_name = 'Brock Purdy' 
 player_info = qb_info[qb_info['Name'] == player_name].iloc[0]
 
 # Get the player ID from the CSV and fetch the headshot
 player_id = player_info['player_id']
 headshot = get_espn_headshot(player_id)
 
-logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/lions_logo.png' # manually find logo path
+logo_path = '/Users/raymondcarpenter/Documents/GitHub/14thstreetanalytics/throwing_summary/niners_logo.png' # manually find logo path
 logo = Image.open(logo_path)
 
 def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, summary_df: pd.DataFrame, pass_distance_summary: pd.DataFrame, quarter_positions, save_path: str = None):
@@ -252,9 +252,9 @@ def qb_dashboard(game_data_passing: pd.DataFrame, headshot: Image, logo: Image, 
     ax_logo.axis('off')
 
     # Biographical Information with adjusted horizontal and vertical space
-    ax_bio.text(0.5, 0.95, 'Jared Goff', fontsize=22, ha='center', fontweight='bold')  # manual
-    ax_bio.text(0.5, 0.50, 'RHQB, Age: 29, 6\'4/217', fontsize=18, ha='center')  # manual
-    ax_bio.text(0.5, 0.1, '2024 Week 1 Throwing Summary vs. LA Rams', fontsize=18, ha='center', fontstyle='italic')  # manual
+    ax_bio.text(0.5, 0.95, 'Brock Purdy', fontsize=22, ha='center', fontweight='bold')  # manual
+    ax_bio.text(0.5, 0.50, 'RHQB, Age: 24, 6\'1/220', fontsize=18, ha='center')  # manual
+    ax_bio.text(0.5, 0.1, '2024 Week 1 Throwing Summary vs. New York Jets', fontsize=18, ha='center', fontstyle='italic')  # manual
     ax_bio.axis('off')
 
     # Summary Table Plot - Adjusted for more compact cells
