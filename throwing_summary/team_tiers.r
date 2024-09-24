@@ -2,12 +2,13 @@
 library(nflfastR)
 library(ggplot2)
 library(ggimage)
+library(dplyr)  # Load dplyr for pipe operator (%>%)
 
 # Load play-by-play data for 2024 season
 pbp_data <- load_pbp(2024) 
 
-# Filter data for Week 1 and Week 2
-week1_2_data <- pbp_data[pbp_data$week %in% c(1, 2), ]
+# Filter data for Week 1, Week 2, and Week 3
+week1_2_data <- pbp_data[pbp_data$week %in% c(1, 2, 3), ]
 
 # Calculate offensive EPA per play
 epa_team <- week1_2_data %>%
@@ -34,7 +35,7 @@ my_plot <- ggplot(epa_combined, aes(x = epa_per_play, y = epa_per_play_allowed))
   geom_vline(xintercept = 0, linetype = "dashed", color = "black") +
   geom_image(aes(image = team_logo_wikipedia), size = 0.05) +
   labs(
-    title = "NFL Team Offensive and Defensive EPA: Week 1 and Week 2",
+    title = "NFL Team Offensive and Defensive EPA: Week 3",
     subtitle = "2024 season | Data: nflfastR",
     x = "EPA/Play",
     y = "EPA/Play Allowed"
