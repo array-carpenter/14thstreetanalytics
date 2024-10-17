@@ -5,7 +5,7 @@ library(dplyr)
 options(vsc.plot = TRUE)
 
 # Pull team-level stats for the 2023 season
-team_stats <- cfbd_stats_season_team(year = 2023)
+team_stats <- cfbd_stats_season_team(year = 2024)
 
 # Inspect the structure of the team_stats data frame
 str(team_stats)
@@ -23,7 +23,7 @@ if ("conference" %in% colnames(team_stats)) {
 }
 
 # Pull play-by-play data with rushing and passing yards for the 2023 season
-pbp_data <- cfbd_pbp_data(year = 2023, epa_wpa = TRUE)
+pbp_data <- cfbd_pbp_data(year = 2024, epa_wpa = TRUE)
 
 # Inspect the structure of the pbp_data data frame
 str(pbp_data)
@@ -48,7 +48,7 @@ explosive_and_success <- pbp_data %>%
 explosive_success_plot <- ggplot(explosive_and_success, aes(x = explosive_play_pct, y = success_rate)) +
   geom_cfb_logos(aes(team = offense_play), width = 0.05) +
   labs(
-    title = "Explosive Play Percentage vs Success Rate (2023, Selected Conferences)",
+    title = "Explosive Play Percentage vs Success Rate (2024, Selected Conferences)",
     x = "Explosive Play Percentage",
     y = "Success Rate"
   ) +
