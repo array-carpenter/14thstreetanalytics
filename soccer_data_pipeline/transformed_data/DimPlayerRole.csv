@@ -1,0 +1,185 @@
+player_role.id,player_role.name,player_role.acronym
+9,Left Midfield,LM
+15,Center Forward,CF
+15,Center Forward,CF
+13,Right Winger,RW
+9,Left Midfield,LM
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+10,Right Midfield,RM
+16,Right Forward,RF
+2,Center Back,CB
+6,Right Wing Back,RWB
+3,Left Center Back,LCB
+7,Defensive Midfield,DM
+4,Right Center Back,RCB
+5,Left Wing Back,LWB
+0,Goalkeeper,GK
+9,Left Midfield,LM
+15,Center Forward,CF
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+6,Right Wing Back,RWB
+12,Left Winger,LW
+15,Center Forward,CF
+10,Right Midfield,RM
+3,Left Center Back,LCB
+9,Left Midfield,LM
+4,Right Center Back,RCB
+0,Goalkeeper,GK
+5,Left Wing Back,LWB
+11,Attacking Midfield,AM
+12,Left Winger,LW
+11,Attacking Midfield,AM
+15,Center Forward,CF
+15,Center Forward,CF
+14,Left Forward,LF
+16,Right Forward,RF
+4,Right Center Back,RCB
+4,Right Center Back,RCB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+10,Right Midfield,RM
+4,Right Center Back,RCB
+6,Right Wing Back,RWB
+9,Left Midfield,LM
+0,Goalkeeper,GK
+5,Left Wing Back,LWB
+2,Center Back,CB
+3,Left Center Back,LCB
+11,Attacking Midfield,AM
+15,Center Forward,CF
+11,Attacking Midfield,AM
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+9,Left Midfield,LM
+16,Right Forward,RF
+6,Right Wing Back,RWB
+2,Center Back,CB
+3,Left Center Back,LCB
+10,Right Midfield,RM
+0,Goalkeeper,GK
+15,Center Forward,CF
+5,Left Wing Back,LWB
+15,Center Forward,CF
+10,Right Midfield,RM
+15,Center Forward,CF
+9,Left Midfield,LM
+5,Left Wing Back,LWB
+14,Left Forward,LF
+16,Right Forward,RF
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+9,Left Midfield,LM
+0,Goalkeeper,GK
+6,Right Wing Back,RWB
+5,Left Wing Back,LWB
+7,Defensive Midfield,DM
+4,Right Center Back,RCB
+3,Left Center Back,LCB
+15,Center Forward,CF
+2,Center Back,CB
+10,Right Midfield,RM
+16,Right Forward,RF
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+4,Right Center Back,RCB
+0,Goalkeeper,GK
+15,Center Forward,CF
+16,Right Forward,RF
+6,Right Wing Back,RWB
+3,Left Center Back,LCB
+10,Right Midfield,RM
+2,Center Back,CB
+9,Left Midfield,LM
+5,Left Wing Back,LWB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+13,Right Winger,RW
+12,Left Winger,LW
+15,Center Forward,CF
+2,Center Back,CB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+0,Goalkeeper,GK
+3,Left Center Back,LCB
+5,Left Wing Back,LWB
+4,Right Center Back,RCB
+13,Right Winger,RW
+9,Left Midfield,LM
+15,Center Forward,CF
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+16,Right Forward,RF
+15,Center Forward,CF
+0,Goalkeeper,GK
+4,Right Center Back,RCB
+10,Right Midfield,RM
+5,Left Wing Back,LWB
+12,Left Winger,LW
+3,Left Center Back,LCB
+9,Left Midfield,LM
+6,Right Wing Back,RWB
+10,Right Midfield,RM
+11,Attacking Midfield,AM
+12,Left Winger,LW
+10,Right Midfield,RM
+7,Defensive Midfield,DM
+9,Left Midfield,LM
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+6,Right Wing Back,RWB
+7,Defensive Midfield,DM
+14,Left Forward,LF
+14,Left Forward,LF
+15,Center Forward,CF
+15,Center Forward,CF
+13,Right Winger,RW
+13,Right Winger,RW
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+4,Right Center Back,RCB
+3,Left Center Back,LCB
+16,Right Forward,RF
+0,Goalkeeper,GK
+15,Center Forward,CF
+6,Right Wing Back,RWB
+7,Defensive Midfield,DM
+5,Left Wing Back,LWB
+9,Left Midfield,LM
+10,Right Midfield,RM
+14,Left Forward,LF
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+17,Substitute,SUB
+5,Left Wing Back,LWB
+9,Left Midfield,LM
+12,Left Winger,LW
+6,Right Wing Back,RWB
+10,Right Midfield,RM
+3,Left Center Back,LCB
+4,Right Center Back,RCB
+16,Right Forward,RF
+0,Goalkeeper,GK

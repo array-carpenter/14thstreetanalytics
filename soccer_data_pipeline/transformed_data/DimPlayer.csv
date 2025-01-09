@@ -1,0 +1,185 @@
+id.1,first_name,last_name,short_name,birthday,trackable_object,gender,player_role.id,player_role.name,player_role.acronym
+18534,David,McGoldrick,D. McGoldrick,1987-11-29,18731,male,9,Left Midfield,LM
+18651,Oliver,Burke,O. Burke,1997-04-07,18848,male,15,Center Forward,CF
+11773,Takumi,Minamino,T. Minamino,1995-01-16,11879,male,15,Center Forward,CF
+2766,Diogo José,Teixeira da Silva,Diogo Jota,1996-12-04,2776,male,13,Right Winger,RW
+4673,James,Milner,J. Milner,1986-01-04,4683,male,9,Left Midfield,LM
+8655,Phil,Jagielka,P. Jagielka,1982-08-17,8665,male,17,Substitute,SUB
+12505,Oliver,Norwood,O. Norwood,1991-04-12,12657,male,17,Substitute,SUB
+24459,Michael,Verrips,M. Verrips,1996-12-03,25480,male,17,Substitute,SUB
+4589,Jack,Robinson,J. Robinson,1993-09-01,4599,male,17,Substitute,SUB
+18531,Billy,Sharp,B. Sharp,1986-02-05,18728,male,17,Substitute,SUB
+12029,Sander Gard,Bolin Berge,S. Berge,1998-02-14,12140,male,10,Right Midfield,RM
+13074,Oliver,McBurnie,O. McBurnie,1996-06-04,13254,male,16,Right Forward,RF
+13017,John,Egan,J. Egan,1992-10-20,13195,male,2,Center Back,CB
+18527,George,Baldock,G. Baldock,1993-03-09,18724,male,6,Right Wing Back,RWB
+3098,Enda,Stevens,E. Stevens,1990-07-09,3108,male,3,Left Center Back,LCB
+11632,Ethan,Ampadu,E. Ampadu,2000-09-14,11723,male,7,Defensive Midfield,DM
+1780,Chris,Basham,C. Basham,1988-07-20,1790,male,4,Right Center Back,RCB
+18566,Ben,Osborn,B. Osborn,1994-08-05,18763,male,5,Left Wing Back,LWB
+14040,Aaron,Ramsdale,A. Ramsdale,1998-05-14,14237,male,0,Goalkeeper,GK
+18529,John ,Lundstram,J. Lundstram,1994-02-18,18726,male,9,Left Midfield,LM
+12172,Rhian Joel,Brewster,R. Brewster,2000-04-01,12315,male,15,Center Forward,CF
+10936,Xherdan,Shaqiri,X. Shaqiri,1991-10-10,10946,male,17,Substitute,SUB
+24614,Neco,Williams,N. Williams,2001-04-13,25648,male,17,Substitute,SUB
+12084,Nathaniel,Phillips,N. Phillips,1997-03-21,12225,male,17,Substitute,SUB
+11754,Curtis,Jones,C. Jones,2001-01-30,11855,male,17,Substitute,SUB
+264,Adrián,San Miguel del Castillo,Adrián,1987-01-03,274,male,17,Substitute,SUB
+11746,Trent,Alexander-Arnold,T. Alexander-Arnold,1998-10-07,11847,male,6,Right Wing Back,RWB
+9439,Sadio,Mané,S. Mané,1992-04-10,9449,male,12,Left Winger,LW
+7735,Mohamed ,Salah Ghaly,Mohamed Salah,1992-06-15,7745,male,15,Center Forward,CF
+5308,Jordan,Henderson,J. Henderson,1990-06-17,5318,male,10,Right Midfield,RM
+11475,Joe,Gomez,J. Gomez,1997-05-23,11537,male,3,Left Center Back,LCB
+3837,Georginio,Wijnaldum,G. Wijnaldum,1990-11-11,3847,male,9,Left Midfield,LM
+3257,Fábio Henrique,Tavares,Fabinho,1993-10-23,3267,male,4,Right Center Back,RCB
+11499,Alisson Ramsés,Becker,Alisson,1992-10-02,11565,male,0,Goalkeeper,GK
+841,Andrew,Robertson,A. Robertson,1994-03-11,851,male,5,Left Wing Back,LWB
+9133,Roberto Firmino,Barbosa de Oliveira,Roberto Firmino,1991-10-02,9143,male,11,Attacking Midfield,AM
+6649,Marc,Albrighton,M. Albrighton,1989-11-18,6659,male,12,Left Winger,LW
+11665,Cengiz,Ünder,C. Ünder,1997-07-14,11761,male,11,Attacking Midfield,AM
+4700,Jamie,Vardy,J. Vardy,1987-01-11,4710,male,15,Center Forward,CF
+11659,Eddie,Nketiah,E. Nketiah,1999-05-30,11754,male,15,Center Forward,CF
+20208,Bukayo,Saka,B. Saka,2001-09-05,20421,male,14,Left Forward,LF
+11452,Nicolas,Pépé,N. Pépé,1995-05-29,11510,male,16,Right Forward,RF
+2459,David Luiz,Moreira Marinho,David Luiz,1987-04-22,2469,male,4,Right Center Back,RCB
+9818,Shkodran,Mustafi,S. Mustafi,1992-04-17,9828,male,4,Right Center Back,RCB
+10826,Wes,Morgan,W. Morgan,1984-01-21,10836,male,17,Substitute,SUB
+5762,Kelechi Promise,Iheanacho,K. Iheanacho,1996-10-03,5772,male,17,Substitute,SUB
+12114,Hamza,Choudhury,H. Choudhury,1997-10-01,12257,male,17,Substitute,SUB
+2323,Danny,Ward,D. Ward,1993-06-22,2333,male,17,Substitute,SUB
+11041,Youri,Tielemans,Y. Tielemans,1997-05-07,11051,male,10,Right Midfield,RM
+14210,Wesley,Fofana,W. Fofana,2000-12-17,14407,male,4,Right Center Back,RCB
+10394,Timothy,Castagne,T. Castagne,1995-12-05,10404,male,6,Right Wing Back,RWB
+7854,Nampalys,Mendy,N. Mendy,1992-06-23,7864,male,9,Left Midfield,LM
+5740,Kasper,Schmeichel,K. Schmeichel,1986-11-05,5750,male,0,Goalkeeper,GK
+23126,James,Justin,J. Justin,1998-02-23,24038,male,5,Left Wing Back,LWB
+5292,Jonny,Evans,J. Evans,1988-01-02,5302,male,2,Center Back,CB
+1829,Christian,Fuchs,C. Fuchs,1986-04-07,1839,male,3,Left Center Back,LCB
+12115,James,Maddison,J. Maddison,1996-11-23,12258,male,11,Attacking Midfield,AM
+18650,Harvey,Barnes,H. Barnes,1997-12-09,18847,male,15,Center Forward,CF
+2645,Dennis,Praet,D. Praet,1994-05-14,2655,male,11,Attacking Midfield,AM
+11956,Rúnar Alex,Rúnarsson,R. Rúnarsson,1995-02-18,12065,male,17,Substitute,SUB
+7726,Mohamed Naser,Elsayed Elneny,Mohamed Elneny,1992-07-11,7736,male,17,Substitute,SUB
+20206,Joe,Willock,J. Willock,1999-08-20,20419,male,17,Substitute,SUB
+11534,Ainsley,Maitland-Niles,A. Maitland-Niles,1997-08-29,11608,male,17,Substitute,SUB
+10324,Thomas Teye,Partey,T. Partey,1993-06-13,10334,male,9,Left Midfield,LM
+8692,Pierre-Emerick,Aubameyang,P. Aubameyang,1989-06-18,8702,male,16,Right Forward,RF
+4234,Héctor,Bellerín Moruno,Héctor Bellerín,1995-03-19,4244,male,6,Right Wing Back,RWB
+12841,Gabriel,dos Santos Magalhães,Gabriel Magalhaes,1997-12-19,13009,male,2,Center Back,CB
+4047,Granit,Xhaka,G. Xhaka,1992-09-27,4057,male,3,Left Center Back,LCB
+2190,Daniel,Ceballos Fernández,Dani Ceballos,1996-08-07,2200,male,10,Right Midfield,RM
+1329,Bernd,Leno,B. Leno,1992-03-04,1339,male,0,Goalkeeper,GK
+560,Alexandre,Lacazette,A. Lacazette,1991-05-28,570,male,15,Center Forward,CF
+5906,Kieran,Tierney,K. Tierney,1997-06-05,5916,male,5,Left Wing Back,LWB
+859,Andy,Carroll,A. Carroll,1989-01-06,869,male,15,Center Forward,CF
+12459,Sean,Longstaff,S. Longstaff,1997-10-30,12607,male,10,Right Midfield,RM
+12759,Joelinton Cassio,Apolinário de Lira,Joelinton,1996-08-14,12920,male,15,Center Forward,CF
+5071,João Filipe,Iria Santos Moutinho,João Moutinho,1986-09-08,5081,male,9,Left Midfield,LM
+11227,Fernando,Marçal de Oliveira,Marçal,1989-02-19,11254,male,5,Left Wing Back,LWB
+11172,Daniel,Castelo Podence,Daniel Podence,1995-10-21,11192,male,14,Left Forward,LF
+12168,Adama,Traoré Diarra,Adama Traoré,1996-01-25,12311,male,16,Right Forward,RF
+29353,Mark,Gillespie,M. Gillespie,1992-03-27,30437,male,17,Substitute,SUB
+4811,Javier,Manquillo Gaitán,Javi Manquillo,1994-05-05,4821,male,17,Substitute,SUB
+12140,Isaac,Hayden,I. Hayden,1995-03-22,12283,male,17,Substitute,SUB
+3056,Emil,Krafth,E. Krafth,1994-08-02,3066,male,17,Substitute,SUB
+18242,Miguel Ángel,Almirón Rejala,M. Almirón,1994-02-10,18439,male,9,Left Midfield,LM
+5726,Karl,Darlow,K. Darlow,1990-10-08,5736,male,0,Goalkeeper,GK
+11597,Jacob,Murphy,J. Murphy,1995-02-24,11681,male,6,Right Wing Back,RWB
+12504,Jamal,Lewis,J. Lewis,1998-01-25,12656,male,5,Left Wing Back,LWB
+11602,Jeff,Hendrick,J. Hendrick,1992-01-31,11687,male,7,Defensive Midfield,DM
+12138,Fabian,Schär,F. Schär,1991-12-20,12281,male,4,Right Center Back,RCB
+3339,Federico,Fernández,F. Fernández,1989-02-21,3349,male,3,Left Center Back,LCB
+1575,Callum,Wilson,C. Wilson,1992-02-27,1585,male,15,Center Forward,CF
+4650,Jamaal,Lascelles,J. Lascelles,1993-11-11,4660,male,2,Center Back,CB
+12475,Ryan,Fraser,R. Fraser,1994-02-24,12626,male,10,Right Midfield,RM
+616,Allan,Saint-Maximin,A. Saint-Maximin,1997-03-12,626,male,16,Right Forward,RF
+12450,Rayan,Aït Nouri,R. Aït Nouri,2001-06-06,12597,male,17,Substitute,SUB
+23137,Ki-Jana,Hoever,K. Hoever,2002-01-18,24049,male,17,Substitute,SUB
+5189,John,Ruddy,J. Ruddy,1986-10-24,5199,male,17,Substitute,SUB
+24014,Fábio Daniel,Soares Silva,Fábio Silva,2002-07-19,24977,male,17,Substitute,SUB
+10882,Willy,Boly,W. Boly,1991-02-03,10892,male,4,Right Center Back,RCB
+9380,Rui Pedro,dos Santos Patrício,Rui Patrício,1988-02-15,9390,male,0,Goalkeeper,GK
+8891,Raúl Alonso,Jiménez Rodríguez,R. Jiménez,1991-05-05,8901,male,15,Center Forward,CF
+14084,Pedro,Lomba Neto,Pedro Neto,2000-03-09,14281,male,16,Right Forward,RF
+11454,Nélson,Cabral Semedo,Nélson Semedo,1993-11-16,11514,male,6,Right Wing Back,RWB
+20262,Max,Kilman,M. Kilman,1997-05-23,20487,male,3,Left Center Back,LCB
+6088,Leander,Dendoncker,L. Dendoncker,1995-04-15,6098,male,10,Right Midfield,RM
+12162,Conor ,Coady,C. Coady,1993-02-25,12305,male,2,Center Back,CB
+9345,Rúben Diogo,Da Silva Neves,Rúben Neves,1997-03-13,9355,male,9,Left Midfield,LM
+9247,Romain,Saïss,R. Saïss,1990-03-26,9257,male,5,Left Wing Back,LWB
+168,Adam,Armstrong,A. Armstrong,1997-02-10,178,male,17,Substitute,SUB
+14015,Harry,Lewis,H. Lewis,1997-12-20,14212,male,17,Substitute,SUB
+18402,Ibrahima,Diallo,I. Diallo,1999-03-08,18599,male,17,Substitute,SUB
+10148,Stuart,Armstrong,S. Armstrong,1992-03-30,10158,male,13,Right Winger,RW
+13750,Moussa,Djénépo,M. Djénépo,1998-06-15,13947,male,12,Left Winger,LW
+9795,Shane ,Long,S. Long,1987-01-22,9805,male,15,Center Forward,CF
+12641,Jack,Stephens,J. Stephens,1994-01-27,12799,male,2,Center Back,CB
+14016,Yan,Valery,Y. Valery,1999-02-22,14213,male,17,Substitute,SUB
+10242,Theo ,Walcott,T. Walcott,1989-03-16,10252,male,17,Substitute,SUB
+11651,Romain,Perraud,R. Perraud,1997-09-22,11743,male,17,Substitute,SUB
+12760,Angus,Gunn,A. Gunn,1996-01-22,12921,male,0,Goalkeeper,GK
+12633,Ben,Gibson,B. Gibson,1993-01-15,12790,male,3,Left Center Back,LCB
+24089,Brandon,Williams,B. Williams,2000-09-03,25073,male,5,Left Wing Back,LWB
+4049,Grant,Hanley,G. Hanley,1991-11-20,4059,male,4,Right Center Back,RCB
+17967,Josh,Sargent,J. Sargent,2000-02-20,18164,male,13,Right Winger,RW
+5790,Kenny,McLean,K. McLean,1992-01-08,5800,male,9,Left Midfield,LM
+10227,Teemu,Pukki,T. Pukki,1990-03-29,10237,male,15,Center Forward,CF
+18580,Christoph,Zimmermann,C. Zimmermann,1993-01-12,18777,male,17,Substitute,SUB
+12534,Dimitrios,Giannoulis,D. Giannoulis,1995-10-17,12687,male,17,Substitute,SUB
+87529,Jonathan,Rowe,J. Rowe,2003-04-30,88663,male,17,Substitute,SUB
+24999,Armando,Broja,A. Broja,2001-09-10,26045,male,16,Right Forward,RF
+18665,Ché,Adams,C. Adams,1996-07-13,18862,male,15,Center Forward,CF
+3633,Fraser,Forster,F. Forster,1988-03-17,3643,male,0,Goalkeeper,GK
+4703,Jan,Bednarek,J. Bednarek,1996-04-12,4713,male,4,Right Center Back,RCB
+4681,James ,Ward-Prowse,J. Ward-Prowse,1994-11-01,4691,male,10,Right Midfield,RM
+12145,Kyle,Walker-Peters,K. Walker-Peters,1997-04-13,12288,male,5,Left Wing Back,LWB
+12642,Mohamed Amine,Elyounoussi,M. Elyounoussi,1994-08-04,12800,male,12,Left Winger,LW
+13950,Mohamed Karim,Salisu Abdul,M. Salisu,1999-04-17,14147,male,3,Left Center Back,LCB
+8249,Oriol,Romeu Vidal,Oriol Romeu,1991-09-24,8259,male,9,Left Midfield,LM
+44869,Valentino,Livramento,V. Livramento,2002-11-12,45995,male,6,Right Wing Back,RWB
+23138,Billy,Gilmour,B. Gilmour,2001-06-11,24050,male,10,Right Midfield,RM
+12687,Kieran,Dowell,K. Dowell,1997-10-10,12847,male,11,Attacking Midfield,AM
+7661,Milot,Rashica,M. Rashica,1996-06-28,7671,male,12,Left Winger,LW
+11163,Pierre,Lees-Melou,P. Lees-Melou,1993-05-25,11181,male,10,Right Midfield,RM
+23547,Mathias ,Antonsen Normann,M. Normann,1996-05-28,24483,male,7,Defensive Midfield,DM
+6475,Lukas,Rupp,L. Rupp,1991-01-08,6485,male,9,Left Midfield,LM
+10369,Tim,Krul,T. Krul,1988-04-03,10379,male,17,Substitute,SUB
+18571,Sam,Byram,S. Byram,1993-09-16,18768,male,17,Substitute,SUB
+22882,Przemysław,Płacheta,P. Płacheta,1998-03-23,23714,male,17,Substitute,SUB
+18589,Max,Aarons,M. Aarons,2000-01-04,18786,male,6,Right Wing Back,RWB
+3231,Fabian,Delph,F. Delph,1989-11-21,3241,male,7,Defensive Midfield,DM
+24344,Anthony,Gordon,A. Gordon,2001-02-24,25360,male,14,Left Forward,LF
+12169,Bernard Anício ,Caldeira Duarte,Bernard,1992-09-08,12312,male,14,Left Forward,LF
+18665,Ché,Adams,C. Adams,1996-07-13,18862,male,15,Center Forward,CF
+23197,Dan,N'Lundulu,D. N'Lundulu,1999-02-05,24110,male,15,Center Forward,CF
+10148,Stuart,Armstrong,S. Armstrong,1992-03-30,10158,male,13,Right Winger,RW
+18402,Ibrahima,Diallo,I. Diallo,1999-03-08,18599,male,13,Right Winger,RW
+10437,Tom,Davies,T. Davies,1998-06-30,10447,male,17,Substitute,SUB
+11492,Robin,Olsen,R. Olsen,1990-01-08,11556,male,17,Substitute,SUB
+24250,Niels,Nkounkou,N. Nkounkou,2000-11-01,25255,male,17,Substitute,SUB
+729,André Filipe,Tavares Gomes,André Gomes,1993-07-30,739,male,17,Substitute,SUB
+12065,Yerry Fernando,Mina González,Y. Mina,1994-09-23,12184,male,4,Right Center Back,RCB
+7438,Michael,Keane,M. Keane,1993-01-11,7448,male,3,Left Center Back,LCB
+4676,James David,Rodríguez Rubio,J. Rodríguez,1991-07-12,4686,male,16,Right Forward,RF
+5317,Jordan,Pickford,J. Pickford,1994-03-07,5327,male,0,Goalkeeper,GK
+11753,Dominic,Calvert-Lewin,D. Calvert-Lewin,1997-03-16,11854,male,15,Center Forward,CF
+18579,Ben,Godfrey,B. Godfrey,1998-01-15,18776,male,6,Right Wing Back,RWB
+617,Allan,Marques Loureiro,Allan,1991-01-08,627,male,7,Defensive Midfield,DM
+6355,Lucas,Digne,L. Digne,1993-07-20,6365,male,5,Left Wing Back,LWB
+4164,Gylfi Þór,Sigurðsson,G. Sigurðsson,1989-09-08,4174,male,9,Left Midfield,LM
+124,Abdoulaye,Doucouré,A. Doucouré,1993-01-01,134,male,10,Right Midfield,RM
+494,Alex,Iwobi,A. Iwobi,1996-05-03,504,male,14,Left Forward,LF
+9795,Shane ,Long,S. Long,1987-01-22,9805,male,17,Substitute,SUB
+25882,Nathan,Tella,N. Tella,1999-07-05,26943,male,17,Substitute,SUB
+24866,Jake,Vokins,J. Vokins,2000-03-17,25909,male,17,Substitute,SUB
+12641,Jack,Stephens,J. Stephens,1994-01-27,12799,male,17,Substitute,SUB
+3633,Fraser,Forster,F. Forster,1988-03-17,3643,male,17,Substitute,SUB
+9404,Ryan,Bertrand,R. Bertrand,1989-08-05,9414,male,5,Left Wing Back,LWB
+8249,Oriol,Romeu Vidal,Oriol Romeu,1991-09-24,8259,male,9,Left Midfield,LM
+7872,Nathan,Redmond,N. Redmond,1994-03-06,7882,male,12,Left Winger,LW
+12145,Kyle,Walker-Peters,K. Walker-Peters,1997-04-13,12288,male,6,Right Wing Back,RWB
+4681,James ,Ward-Prowse,J. Ward-Prowse,1994-11-01,4691,male,10,Right Midfield,RM
+4740,Jannik,Vestergaard,J. Vestergaard,1992-08-03,4750,male,3,Left Center Back,LCB
+4703,Jan,Bednarek,J. Bednarek,1996-04-12,4713,male,4,Right Center Back,RCB
+2311,Daniel William ,John Ings,D. Ings,1992-07-23,2321,male,16,Right Forward,RF
+502,Alex,McCarthy,A. McCarthy,1989-12-03,512,male,0,Goalkeeper,GK
